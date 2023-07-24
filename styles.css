@@ -1657,6 +1657,22 @@ html {
   bottom: 3px;
 }
 
+.left-\[50px\] {
+  left: 50px;
+}
+
+.top-\[100px\] {
+  top: 100px;
+}
+
+.bottom-\[100px\] {
+  bottom: 100px;
+}
+
+.left-\[80px\] {
+  left: 80px;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -1784,6 +1800,46 @@ html {
   margin-top: 80px;
 }
 
+.-mt-10 {
+  margin-top: -2.5rem;
+}
+
+.-mb-10 {
+  margin-bottom: -2.5rem;
+}
+
+.-mt-\[100px\] {
+  margin-top: -100px;
+}
+
+.ml-\[100px\] {
+  margin-left: 100px;
+}
+
+.ml-\[50px\] {
+  margin-left: 50px;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-40 {
+  margin-top: 10rem;
+}
+
+.mt-60 {
+  margin-top: 15rem;
+}
+
+.mt-52 {
+  margin-top: 13rem;
+}
+
+.mt-48 {
+  margin-top: 12rem;
+}
+
 .flex {
   display: flex;
 }
@@ -1901,6 +1957,10 @@ html {
   flex-direction: column-reverse;
 }
 
+.items-end {
+  align-items: flex-end;
+}
+
 .items-center {
   align-items: center;
 }
@@ -1959,6 +2019,10 @@ html {
   --tw-space-y-reverse: 0;
   margin-top: calc(10px * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(10px * var(--tw-space-y-reverse));
+}
+
+.self-end {
+  align-self: flex-end;
 }
 
 .rounded-\[10px\] {
@@ -2034,6 +2098,16 @@ html {
 .bg-\[\#000\] {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#0AF\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 170 255 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#0FF\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 255 255 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-b {
@@ -2311,6 +2385,30 @@ html {
   padding-left: 9rem;
 }
 
+.pr-10 {
+  padding-right: 2.5rem;
+}
+
+.pr-\[100px\] {
+  padding-right: 100px;
+}
+
+.pr-24 {
+  padding-right: 6rem;
+}
+
+.pr-\[200px\] {
+  padding-right: 200px;
+}
+
+.pr-\[150px\] {
+  padding-right: 150px;
+}
+
+.pr-\[180px\] {
+  padding-right: 180px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -2476,6 +2574,30 @@ html {
   .md\:mx-auto {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .md\:mt-\[100px\] {
+    margin-top: 100px;
+  }
+
+  .md\:mt-\[1r0px\] {
+    margin-top: 1r0px;
+  }
+
+  .md\:mt-\[120px\] {
+    margin-top: 120px;
+  }
+
+  .md\:mt-\[150px\] {
+    margin-top: 150px;
+  }
+
+  .md\:mt-\[180px\] {
+    margin-top: 180px;
+  }
+
+  .md\:mt-\[200px\] {
+    margin-top: 200px;
   }
 
   .md\:w-4\/5 {
